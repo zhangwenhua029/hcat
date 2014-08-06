@@ -1,0 +1,236 @@
+body {
+	background: url(images/pyramid.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+
+.homeButtons {
+	text-align: center;
+	min-width: 450px;
+}
+
+.homeButtons a {
+	position: relative;
+	top: 280px;
+	background-color:rgba(255,255,255,0.8);
+	color: #303030;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	padding: 17px 34px;
+	text-decoration: none;
+	border-radius: 8px;
+	min-width: 300px;
+}
+
+.homeButtons a:hover {background-color: #FFCC66;}
+
+
+/* OUTER IS NECCESSARY SO THAT WE CAN OFFSET THE NEXT AND BACK BUTTONS FROM THE CENTER
+ */
+ #outer {
+	position: absolute;
+	width: 1px; /*WIDTH NEEDS TO BE 1PX OR ELSE THE DIV COVERS THE WHOLE LINE */
+	right: 0; /*NEEDED TO CENTER WITH ABSOLUTE POSITIONING*/
+	left: 0;
+	margin: 0 auto;
+	top: 520px;
+}
+
+#nextButton {
+	margin-left: 127px;
+	position: relative;
+	top: 35px;
+}
+
+#nextButton a {
+	background-color:rgba(255,255,255,0.7);
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding: 12px 24px;
+	text-decoration: none;
+	color: #303030;
+	border-radius: 6px;
+}
+
+#nextButton a:hover { background-color: #FFCC66;}
+
+#backButton {
+	margin-left: -243px;
+}
+
+#backButton a {
+	background-color:rgba(255,255,255,0.7);
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding: 12px 24px;
+	text-decoration: none;
+	color: #303030;
+	border-radius: 6px;
+}
+
+#backButton a:hover { background-color: #FFCC66;}
+
+#container {
+	text-align: center;
+	font-family: Helvetica;
+	position: relative;
+	top: 5px;
+}
+
+#wrapper form {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 300px;
+	font-size: 35px;
+	font-family: Helvetica;
+	font-weight: bold;
+	max-width: 750px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 12px 24px;
+	background-color:rgba(255,255,255,0.7);
+	border-radius: 8px;
+	text-align: center;
+	color: #303030;
+	min-width: 320px;
+}
+
+#description {
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	font-family: Helvetica;
+	font-size: 30px;
+}
+
+#questionNumber {
+	margin: 0 auto;
+	top: 547px;
+	max-width: 200px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	font-size: 24px;
+	font-family: Helvetica;
+	font-weight: bold;
+	padding: 12px 24px;
+	text-decoration: none;
+	text-align: center;
+}
+
+li {
+	margin-bottom: 11px;
+}
+#header {margin: auto;}
+
+h1 {
+	font-size: 40px;
+	font-family: Helvetica;
+}
+input[type=range] {    
+	-webkit-appearance: none;
+    width: 300px;
+	background-color: rgba(255,255,255, 0.05);
+} 
+#pagewrap {
+	max-width: 800px; /*anything longer than 480px will add extra padding and not center properly*/
+	position: relative;
+	top: 130px;
+	margin: auto;
+	border-radius: 8px;
+	background-color:white;
+	border: solid;
+	border-width: 1.5px;
+	border-color: #D0D0D0;
+}
+
+.scalebackground h1{
+	max-width: 1150px;
+	margin: auto;
+	background-color:rgba(255,255,255,0.7);
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #303030;
+}
+
+#templateWrap {
+	background-color: rgba(255,255,255,0.8);
+	margin: 4% 3%;
+	padding: 10px 20px;
+	color: #303030;
+	border-radius: 6px;
+	border: solid;
+	border-width: 1.5px;
+	border-color: #D0D0D0 ;
+	min-width: 180px;
+}
+
+header h1{
+	font-family: Helvetica;
+	color: #383838;
+}
+
+.templateTitle {
+	position: relative;
+	text-align: left;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #303030;
+	min-width: 180px;
+}
+#pagewrap p {
+	max-width: 750px;
+}
+
+.listTitle {
+	font-family: Helvetica;
+}
+
+.listTitle p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+	height: 40px;
+	margin: 5px 0px;
+	font-size: 14px;
+}
+#wrap {
+	background-color: rgba(255,255,255,0.8);
+	margin: 4% 3%;
+	padding: 10px 20px;
+	color: #303030;
+	border-radius: 6px;
+	border: solid;
+	border-width: 1.5px;
+	border-color: #D0D0D0 ;
+	min-width: 275px;
+}
+ /* POSITIONING SUMMARY
+-Relatively positioned elements are moved with respect to their normal position.
+-Absolutely positioned elements are moved with respect to their containing block (as long as that block has an absolute, relative, or fixed position.
+-Default for absolute is to shrink wrap to fit contents.
+-Absolute positioning removes that element from the document flow, which means that the outer block will NOT automatically resize. (It is fine if both the inner and outer have a relative position. ONLY absolute positioning removes from the document flow).
+-Default for element with absolute position is its static (normal) position.
+-Fixed positioning: same as absolute but remains in place during scrolling. Reference to INITIAL position of container element.
+*/
+
+/*PADDING VS. MARGIN VS. BORDER VS. CONTENT
+-Margin - Clears an area around the border. THE MARGIN DOES NOT HAVE A BACKGROUND COLOUR, it is completely transparent
+-Border - A border that goes around the padding and content. The border is inherited from the colour property of the box
+-Padding - Clears an area around the content. THE PADDING IS AFFECTED BY THE BACKGROUND COLOUR OF THE BOX
+-Content - The content of the box, where text and images appear
+
+-WHEN YOU SET WIDTH AND HEIGHT, YOU ARE SETTING THE SIZE OF THE CONTENT AREA. TO CALCULATE THE FULL SIZE OF AN ELEMENT, YOU MUST ALSO ADD THE PADDING, BORDERS AND MARGINS.
+
+http://www.w3schools.com/css/css_boxmodel.asp
+*/
