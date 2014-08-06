@@ -27,7 +27,7 @@ $(document).ready(function(){
 function loadPage(num) {
 	if (num == 0) {document.location = 'index.html';}
 	else if (num >= numQuestions + 1) {
-		document.location = 'careerlist.html';
+		document.location = 'careerList.html';
 		sessionStorage.setItem("weights", JSON.stringify(weights)); //STRINGIFY CHANGES [1,2,3,4,5]->'[1,2,3,4,5]' ***BECAUSE SEESSIONSTORAGE ONLY TAKES STRINGS***
 	}
 	else {
