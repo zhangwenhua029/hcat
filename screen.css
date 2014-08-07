@@ -132,7 +132,11 @@ li {
 }
 #header {margin: auto;}
 
-h1 {
+h1: {
+	font-family: Helvetica;
+}
+
+#titleCareer {
 	font-size: 65px;
 	font-family: Helvetica;
 }
