@@ -31,7 +31,7 @@ function loadPage(num) {
 		sessionStorage.setItem("weights", JSON.stringify(weights)); //STRINGIFY CHANGES [1,2,3,4,5]->'[1,2,3,4,5]' ***BECAUSE SEESSIONSTORAGE ONLY TAKES STRINGS***
 	}
 	else {
-		$("#container").load("questionlist.html #question" + num); //NOT WORKING IN CHROME, SAFARI, OR IE
+		$("#container").load("questionlist.html #question" + num);
 		document.getElementById("questionNumber").innerHTML = "Question: " + num + "/" + numQuestions; //replaceWith doesn't take parameter that changes
 	}
 }

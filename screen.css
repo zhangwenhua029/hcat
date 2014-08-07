@@ -39,7 +39,7 @@ body {
 	right: 0; /*NEEDED TO CENTER WITH ABSOLUTE POSITIONING*/
 	left: 0;
 	margin: 0 auto;
-	top: 520px;
+	top: 540px;
 }
 
 #nextButton {
@@ -84,7 +84,8 @@ body {
 	text-align: center;
 	font-family: Helvetica;
 	position: relative;
-	top: 5px;
+	top: 15px;
+	font-size: 20px;
 }
 
 #wrapper form {
@@ -116,7 +117,7 @@ body {
 
 #questionNumber {
 	margin: 0 auto;
-	top: 547px;
+	top: 567px;
 	max-width: 200px;
 	position: absolute;
 	right: 0;
@@ -127,6 +128,7 @@ body {
 	padding: 12px 24px;
 	text-decoration: none;
 	text-align: center;
+	color: #101010;
 }
 
 li {
@@ -136,6 +138,7 @@ li {
 
 h1: {
 	font-family: Helvetica;
+	font-size: 50px;
 }
 
 #titleCareer {
