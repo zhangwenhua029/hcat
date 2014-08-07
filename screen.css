@@ -171,18 +171,15 @@ input[type=range] {
 #templateWrap {
 	background-color: rgba(255,255,255,0.8);
 	margin: 4% 3%;
-	padding: 10px 20px;
+	padding: 18px 36px;
 	color: #303030;
 	border-radius: 6px;
 	border: solid;
 	border-width: 1.5px;
 	border-color: #D0D0D0 ;
 	min-width: 180px;
-<<<<<<< HEAD
 	font-size: 22px;
-=======
 	font-size: 26px;
->>>>>>> 70bbb5e4fce2e281d75b4afb4ccf92dbedd46328
 }
 
 header h1{
@@ -198,11 +195,8 @@ header h1{
 	font-weight: bold;
 	color: #303030;
 	min-width: 180px;
-<<<<<<< HEAD
 	font-size: 30px;
-=======
 	font-size: 34px;
->>>>>>> 70bbb5e4fce2e281d75b4afb4ccf92dbedd46328
 }
 #pagewrap p {
 	max-width: 750px;
