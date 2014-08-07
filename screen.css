@@ -1,3 +1,5 @@
+/*pull successfull*/
+
 body {
 	background: url(images/pyramid.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -176,7 +178,11 @@ input[type=range] {
 	border-width: 1.5px;
 	border-color: #D0D0D0 ;
 	min-width: 180px;
+<<<<<<< HEAD
 	font-size: 22px;
+=======
+	font-size: 26px;
+>>>>>>> 70bbb5e4fce2e281d75b4afb4ccf92dbedd46328
 }
 
 header h1{
@@ -192,7 +198,11 @@ header h1{
 	font-weight: bold;
 	color: #303030;
 	min-width: 180px;
+<<<<<<< HEAD
 	font-size: 30px;
+=======
+	font-size: 34px;
+>>>>>>> 70bbb5e4fce2e281d75b4afb4ccf92dbedd46328
 }
 #pagewrap p {
 	max-width: 750px;
