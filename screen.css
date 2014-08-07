@@ -136,8 +136,9 @@ h1: {
 	font-family: Helvetica;
 }
 
-.titleCareer {
+#titleCareer {
 	font-size: 65px;
+	font-family: Helvetica;
 }
 input[type=range] {    
 	-webkit-appearance: none;
