@@ -10,7 +10,8 @@ body {
 
 .homeButtons {
 	text-align: center;
-	min-width: 450px;
+	min-width: 470px;
+
 }
 
 .homeButtons a {
@@ -25,7 +26,7 @@ body {
 	padding: 17px 34px;
 	text-decoration: none;
 	border-radius: 8px;
-	min-width: 300px;
+	min-width: 500px;
 }
 
 .homeButtons a:hover {background-color: #FFCC66;}
@@ -96,15 +97,13 @@ body {
 	font-size: 35px;
 	font-family: Helvetica;
 	font-weight: bold;
-	max-width: 750px;
-	width: 80%;
+	width: 55%;
 	margin: 0 auto;
 	padding: 12px 24px;
-	background-color:rgba(255,255,255,0.7);
+	background-color:rgba(255,255,255,0.5);
 	border-radius: 8px;
 	text-align: center;
 	color: #303030;
-	min-width: 320px;
 }
 
 #description {
@@ -145,11 +144,12 @@ h1: {
 	font-size: 65px;
 	font-family: Helvetica;
 }
+
 input[type=range] {    
 	-webkit-appearance: none;
-    width: 300px;
-	background-color: rgba(255,255,255, 0.05);
-} 
+    width: 35%;
+}
+
 #pagewrap {
 	max-width: 800px; /*anything longer than 480px will add extra padding and not center properly*/
 	position: relative;
@@ -165,7 +165,7 @@ input[type=range] {
 .scalebackground h1{
 	max-width: 1150px;
 	margin: auto;
-	background-color:rgba(255,255,255,0.7);
+	background-color:rgba(255,255,255,0.5);
 	border-radius: 8px;
 	padding: 12px 24px;
 	color: #303030;
