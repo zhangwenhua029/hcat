@@ -132,9 +132,12 @@ li {
 }
 #header {margin: auto;}
 
-h1 {
-	font-size: 65px;
+h1: {
 	font-family: Helvetica;
+}
+
+.titleCareer {
+	font-size: 65px;
 }
 input[type=range] {    
 	-webkit-appearance: none;
