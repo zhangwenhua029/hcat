@@ -130,6 +130,15 @@ body {
 	color: #101010;
 }
 
+#left {
+	position: relative;
+	right: 22%;
+}
+
+#right {
+	position: relative;
+	left: 24%;
+}
 li {
 	margin-bottom: 11px;
 }
@@ -148,6 +157,13 @@ h1: {
 input[type=range] {    
 	-webkit-appearance: none;
     width: 35%;
+	height: 5px;
+	background-color: #383838;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin-left: 37.5%;
 }
 
 #pagewrap {
