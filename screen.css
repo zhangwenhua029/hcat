@@ -40,7 +40,7 @@ body {
 	right: 0; /*NEEDED TO CENTER WITH ABSOLUTE POSITIONING*/
 	left: 0;
 	margin: 0 auto;
-	top: 540px;
+	top: 535px;
 }
 
 #nextButton {
@@ -104,6 +104,7 @@ body {
 	border-radius: 8px;
 	text-align: center;
 	color: #303030;
+	min-width: 700px;
 }
 
 #description {
@@ -116,7 +117,7 @@ body {
 
 #questionNumber {
 	margin: 0 auto;
-	top: 567px;
+	top: 562px;
 	max-width: 200px;
 	position: absolute;
 	right: 0;
@@ -196,7 +197,7 @@ input[type=range] {
 	border: solid;
 	border-width: 1.5px;
 	border-color: #D0D0D0 ;
-	min-width: 180px;
+	min-width: 310px;
 	font-size: 22px;
 	font-size: 26px;
 }
@@ -245,7 +246,7 @@ header h1{
 	border: solid;
 	border-width: 1.5px;
 	border-color: #D0D0D0 ;
-	min-width: 400px;
+	min-width: 470px;
 }
 
  /* POSITIONING SUMMARY
