@@ -16,7 +16,7 @@ body {
 
 .homeButtons a {
 	position: relative;
-	top: 300px;
+	top: 200px;
 	background-color:rgba(255,255,255,0.8);
 	color: #303030;
 	font-family: Helvetica;
@@ -249,6 +249,20 @@ header h1{
 	min-width: 470px;
 }
 
+#intro {
+	position: relative;
+	top: 50px;
+	margin: auto;
+	font-size: 60px;
+	background-color:white;
+	font-family: Helvetica;
+	color: #383838;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin: 20px;
+}
  /* POSITIONING SUMMARY
 -Relatively positioned elements are moved with respect to their normal position.
 -Absolutely positioned elements are moved with respect to their containing block (as long as that block has an absolute, relative, or fixed position.
